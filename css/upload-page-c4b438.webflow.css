@@ -1,0 +1,171 @@
+.body {
+  background-color: rgba(66, 66, 66, .19);
+}
+
+.container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.image {
+  display: inline-block;
+  text-align: left;
+}
+
+.loginform {
+  display: inline-block;
+  width: 950px;
+  height: 673px;
+  margin-top: 40px;
+  margin-right: 54px;
+  margin-left: 54px;
+  box-shadow: 1px 1px 15px 2px #aa9f9f;
+  text-align: center;
+}
+
+.logininput {
+  display: inline-block;
+  width: 800px;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-bottom: 2px solid rgba(246, 103, 51, .9);
+  border-radius: 8px;
+  font-family: Montserrat, sans-serif;
+  color: rgba(82, 45, 128, .87);
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.logininput:focus {
+  text-transform: none;
+}
+
+.loginsubmit {
+  float: left;
+  clear: none;
+}
+
+.form-wrapper {
+  text-align: center;
+}
+
+.submit-button {
+  display: block;
+  width: 800px;
+  margin-top: 50px;
+  margin-left: 76px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  border-radius: 8px;
+  background-color: #522d80;
+  font-family: Montserrat, sans-serif;
+  font-size: 22px;
+}
+
+.submit-button.loginbutton {
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.submit-button.uploadbutton {
+  margin-top: 40px;
+  font-weight: 600;
+}
+
+.text-block {
+  width: 10px;
+}
+
+.text-block-2 {
+  display: inline-block;
+  width: 200px;
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.link {
+  display: inline-block;
+  margin-left: 6px;
+  font-size: 14px;
+}
+
+.text-block-3 {
+  display: inline-block;
+  width: 120px;
+}
+
+.link-2 {
+  display: inline-block;
+}
+
+.uploadfilename {
+  display: inline-block;
+  width: 800px;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  text-align: center;
+}
+
+.uploadcategory {
+  display: inline-block;
+  width: 800px;
+  height: 60px;
+  margin-top: 40px;
+  margin-bottom: 0px;
+  padding: 8px 12px;
+}
+
+.textarea {
+  display: inline-block;
+  width: 800px;
+  height: 120px;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.uploadtextarea {
+  display: inline-block;
+  width: 800px;
+  height: 84px;
+  margin-top: 40px;
+  padding-bottom: 60px;
+}
+
+.uploadtextarea.title {
+  padding-bottom: 0px;
+}
+
+.uploadtextarea.description {
+  margin-top: 30px;
+}
+
+.link-3 {
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.checkbox {
+  display: inline-block;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.checkbox-field {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+}
+
+.div-block {
+  margin-top: 17px;
+}
+
+.text-block-4 {
+  color: #f66632;
+  font-size: 16px;
+  font-weight: 700;
+}

@@ -1,0 +1,350 @@
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  margin-top: 0px;
+  padding-top: 0px;
+  box-shadow: inset 0 0 6px 0 #fff;
+}
+
+.nav-link {
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+.nav-link:hover {
+  -webkit-transform: translate(0px, 0px);
+  -ms-transform: translate(0px, 0px);
+  transform: translate(0px, 0px);
+  color: rgba(246, 103, 51, .9);
+}
+
+.image {
+  position: fixed;
+  left: 43px;
+  top: 0px;
+}
+
+.heading {
+  position: relative;
+  width: 100px;
+}
+
+.nav-menu {
+  top: 0px;
+  right: 0px;
+}
+
+.container {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 80px;
+  padding-bottom: 0px;
+}
+
+.text-field {
+  position: static;
+  display: inline-block;
+  width: 800px;
+  height: 60px;
+  margin-top: 45px;
+  float: none;
+  border-style: none none solid;
+  border-width: 2px;
+  border-color: #000 #000 rgba(246, 103, 51, .9);
+  border-radius: 0px;
+  font-family: Montserrat, sans-serif;
+  color: rgba(82, 45, 128, .87);
+  font-size: 16px;
+  text-align: center;
+}
+
+.text-field:focus {
+  color: #522d80;
+}
+
+.text-field.password {
+  margin-top: 34px;
+}
+
+.text-field.password:focus {
+  text-transform: none;
+}
+
+.text-field.logininput {
+  margin-top: 40px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.text-field.logininput:focus {
+  border-top-left-radius: 8px;
+  text-transform: none;
+}
+
+.text-field.registerinput {
+  margin-top: 39px;
+  margin-bottom: 0px;
+  border-radius: 8px;
+  font-size: 22px;
+  text-align: center;
+}
+
+.text-field.registerinput:focus {
+  text-transform: none;
+}
+
+.form {
+  height: 380px;
+  margin: 39px 88px 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  border-bottom: 1px none rgba(0, 0, 0, .01);
+  box-shadow: 0 -1px 15px 2px #aa9f9f;
+  text-align: center;
+}
+
+.form.login {
+  display: inline-block;
+  width: 950px;
+  margin-right: 54px;
+  margin-left: 54px;
+}
+
+.form.register {
+  height: 670px;
+  margin-top: 20px;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding-left: 0px;
+  background-color: #e0e0e0;
+}
+
+.submit-button {
+  display: inline-block;
+  width: 800px;
+  margin-top: 48px;
+  margin-left: 15px;
+  padding-top: 14px;
+  padding-bottom: 14px;
+  float: left;
+  clear: none;
+  border-radius: 8px;
+  background-color: #522d80;
+  font-family: Montserrat, sans-serif;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit-button:hover {
+  box-shadow: inset 0 -10px 50px 13px #5d4081;
+}
+
+.submit-button.loginbutton {
+  margin-top: 50px;
+  margin-left: 76px;
+  font-size: 22px;
+}
+
+.submit-button.registerbutton {
+  margin-top: 40px;
+  margin-left: 54px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-weight: 600;
+}
+
+.success-message {
+  background-color: rgba(95, 230, 111, .88);
+  font-family: Verdana, Geneva, sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.error-message {
+  background-color: #e44646;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.heading-2 {
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: Montserrat, sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section {
+  height: 600px;
+  padding-top: 134px;
+}
+
+.body {
+  background-color: rgba(66, 66, 66, .22);
+  background-image: none;
+}
+
+.container-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+  margin-bottom: 0px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.heading-3 {
+  text-align: center;
+}
+
+.image-2 {
+  text-align: center;
+}
+
+.div-block {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+.button {
+  border-radius: 10px;
+  background-color: #522d80;
+}
+
+.button-2 {
+  border-radius: 10px;
+  background-color: #522d80;
+}
+
+.div-block-2 {
+  position: fixed;
+  top: 0px;
+  right: 0px;
+}
+
+.text-field-2 {
+  padding-left: 12px;
+}
+
+.form-wrapper {
+  text-align: center;
+}
+
+.utility-page-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.utility-page-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 260px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  text-align: center;
+}
+
+.utility-page-form {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+.body-2 {
+  background-color: #e0e0e0;
+}
+
+.container-3 {
+  padding-bottom: 0px;
+}
+
+.div-block-3 {
+  height: 20px;
+  margin-top: 102px;
+  padding-bottom: 0px;
+}
+
+.text-block {
+  display: inline-block;
+  width: 175px;
+}
+
+.link {
+  display: inline-block;
+}
+
+.navbar-2 {
+  background-color: #e0e0e0;
+}
+
+.image-3 {
+  width: 87px;
+}
+
+.nav-link-2 {
+  padding-bottom: 20px;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+}
+
+.nav-link-2:hover {
+  color: rgba(246, 103, 51, .9);
+}
+
+.text-block-2 {
+  display: inline-block;
+  width: 120px;
+}
+
+.link-2 {
+  display: inline-block;
+}
